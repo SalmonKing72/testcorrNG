@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Framework example suite" verbose="1" parallel="classes" thread-count="5">
+    <!--custom TestNG listener disabled to allow for additional logging.-->
+    <!--<listeners>
+        <listener class-name="org.devcorr.reporting.ExtentReporterNG" />
+    </listeners>-->
+    <parameter name="projectRoot" value="testng-base/" />
+    <parameter name="screenshotDir" value="reports/screenshots/" />
+
+    <test name="Framework Tests">
+        <packages>
+            <package name="org.devcorr.tests" />
+        </packages>
+    </test>
+</suite>
