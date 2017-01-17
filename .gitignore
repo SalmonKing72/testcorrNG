@@ -5,3 +5,6 @@ build
 .gradle
 out
 **/reports
+
+#this is currently unversioned since it is a testing framework
+src/main/
